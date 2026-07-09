@@ -2,7 +2,7 @@
 
 **MCP-native AI SRE: ask what's broken in production, get a reviewed GitHub fix PR.**
 
-[Aient AI](https://aient.ai) ingests your OpenTelemetry logs, metrics, and traces, groups errors into problems, investigates root cause, and opens a GitHub pull request with a fix — then watches production telemetry to check the problem stops recurring. The pull request is the human approval gate; Aient does not merge or deploy to your production itself.
+[Aient AI](https://aient.ai) ingests your OpenTelemetry logs, metrics, and traces, groups errors into problems, investigates root cause, and opens a GitHub pull request with a fix. The pull request is the human approval gate — Aient does not merge or deploy to your production itself. Once the PR is merged, Aient validates the fix by watching production telemetry to confirm the problem stops recurring.
 
 This repository documents Aient's **Model Context Protocol (MCP) server** and how to connect it from Claude, Codex, Cursor, VS Code / Copilot, and other MCP clients. The server itself is hosted — there is nothing to install or self-host.
 
