@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.aient/mcp",
+  "description": "MCP-native AI SRE: ask what's broken in production, get a reviewed GitHub fix PR.",
+  "repository": {
+    "url": "https://github.com/aient-ai/aient-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aient.ai/mcp"
+    }
+  ]
+}
